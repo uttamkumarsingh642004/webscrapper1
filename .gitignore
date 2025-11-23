@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+scraper.log
+
+# Scraping Output
+*.json
+*.csv
+*.xlsx
+*.db
+*.sqlite
+scraped_data.*
+output.*
+quotes.json
+
+# Screenshots
+screenshots/
+*.png
+
+# Cache
+.scraper_cache/
+*.cache
+.pytest_cache/
+.mypy_cache/
+
+# Failed URLs
+failed_urls.txt
+
+# Environment Variables
+.env
+.env.local
+
+# Test Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Proxy Files
+proxies.txt
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Project Specific
+examples/quotes.json
+examples/*.csv
+examples/*.xlsx
+examples/*.db
